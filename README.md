@@ -13,7 +13,9 @@ With it's major features being:
 
 #Prequesites
 A configured copy of SteamAuth http://github.com/Smith197/SteamAuthentication
-SourceQuery http://github.com/xpaw/SourceQuery
+
+SourceQuery https://github.com/xPaw/PHP-Source-Query-Class
+
 Put both the SourceQuery and steamauth folder into the main directory.
 Theese are not included because of copyright reasons.
 
