@@ -1,0 +1,52 @@
+I. Disclaimer
+
+THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT
+WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+II. Commercial Use
+
+Any file from BlackCetha's Altis Life Control Panel (the "program") may not be used for commercial use with the exeption of earning money from players wich directly support the server(s).
+You may, in any case, ask for the permission to use the program commercially.
+
+III. Distribution and devirates
+
+YOU MAY NOT DISTRIBUTE A MODIFIED VERSION OF THE PROGRAM ON ANY PLACE EXEPT GITHUB (*.github.com/*).
+YOU NEED TO CLEARLY SHOW THAT YOU ARE DISTRIBUTING A MODFIED VERSION AND A LINK TO THE ORIGINAL PAGE.
+THIS CAN BE ARCHIVED BY "FORKING" THE ORIGINAL REPOSITORY.
+YOU MAY NOT DISTRIBUTE THE ORIGINAL UNMODIFIED PROGRAM AT ALL.
+
+THE CREATOR OF THE MODIFIED VERSION IS RESPONSIBLE FOR EVERY PROBLEMS AND LAW INFRIDGEMENTS HIS MODIFIED VERSION CAUSES. The original creator, BlackCetha, IS NOT RESPONSIBLE IN ANY WAY FOR MODIFIED VERSIONS.
+
+This means specifically, but not limited to, that you may not make modified versions available to download on any third party site (exept github). You may still link to the GitHub repository.
+
+If you're modifying the program, you need to state exactly what you modified. I would suggest editing the "readme.md" on GitHub.
+If you find a bug or otherwise make a useful modification, feel free to create a pull request.
+
+Hosting providers may ask for permission to distribute copies (unmodified or modified) of the program to their customers.
+
+IV. Program configuration
+
+YOU HAVE THE RIGHT TO MAKE ALL CHANGES TO THE FILE "config.php" THAT YOU NEED TO DO.
+
+V. Contact information
+
+Please contact me via e-mail: blackcetha@gmail.com
+It may take up to several days until i read your mail.
+
+VI. Salvatory clause
+
+If any of the above statements become/are invalid due to ANY reason, this does not automatically apply to the license as a whole.
+
+VII. Law
+
+The german law applies to this license and the program. Court would be Hamburg. This may be changed in devirates.
+
+VIII. Libararys
+
+The program makes use of several programing-libararys. They are properties of their distinct copyright owners.
+For example:
+SourceQuery (Source: http://github.com/xpaw/SourceQuery) belongs to 

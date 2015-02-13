@@ -1,0 +1,177 @@
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css);
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FEFEFE;
+    margin-left: 11%;
+    margin-top: 40px;
+}
+a { color: inherit; }
+nav[role=navigation] > ul {
+    position: fixed;
+    top: 40px;
+    left: 0px;
+    margin: 1px 0px;
+    padding: 0px 0px;
+    height: 100%;
+    width: 11%;
+    background-color: #e5e5e5;
+    list-style: none;
+    border-right: 1px solid #9f9f9f;
+}
+nav[role=navigation] > ul > li {
+    border-bottom: 1px solid #D5D5D5;
+}
+nav[role=navigation] > ul > li:hover {
+    background-color: #f0f0f0;
+}
+nav[role=navigation] > ul > li.active {
+    background-color: #fff;
+}
+#topmenu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: #e5e5e5;
+    border-bottom: 1px solid #9f9f9f;
+    line-height: 40px;
+    padding-left: 10px;
+}
+#topmenu > ul {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    list-style: none;
+    display: inline-block;
+    float: right;
+    padding-right: 10px;
+}
+#topmenu > ul > li {
+    display: inline-block;
+    padding-right: 10px;
+}
+#topmenu > ul > li > a {
+    text-decoration: none;
+}
+#topmenu > ul > li > a:hover {
+    text-decoration: underline;
+}
+nav[role=navigation] > ul > li > a, #logout > a {
+    padding: 10px 0px;
+    padding-left: 20px;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+#logout > a {
+    padding: 0px 20px;
+    text-decoration: none;
+}
+#logout > a:hover {
+    background-color: #f0f0f0;
+    text-decoration: none !important;
+}
+#steampowered {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    font-size: 15px;
+    display: none;
+    background-color: #fff182;
+    width: 11%;
+    z-index: 1;
+    text-align: center;
+    border-top: 1px solid #9f9f9f;
+    cursor: default;
+}
+.container {
+    width: 99%;
+    margin: 10px auto;
+    border: 1px solid #9f9f9f;
+    padding: 0px 0px;
+}
+.first { margin-top: 50px; }
+.container > .headline {
+    width: 100%;
+    height: 30px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    padding-left: 5px;
+    background-color: #e5e5e5;
+    line-height: 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #9f9f9f;
+}
+.container > .content {
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+.load {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+#stats.content > b {
+    font-size: 25px;
+    vertical-align: baseline;
+}
+.container a {
+    text-decoration: none;
+}
+.container a:hover {
+    text-decoration: underline;
+}
+table, th, td {
+    border: 1px solid #9f9f9f;
+    border-collapse: collapse;
+    width: 100%;
+}
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+tr:first-child {
+    font-weight: 600;
+}
+td {
+    padding: 0p 5px !important;
+    box-sizing: border-box;
+}
+table.licenses {
+    display: inline-block;
+    border-collapse: collapse;
+    width: 32%;
+    margin: 5px 5px;
+}
+.warning {
+    color: #b23838;
+}
+.spin {
+    -webkit-animation: spinner 2s linear infinite;
+    animation: spinner 2s linear infinite;
+    display: inline-block;
+}
+@-webkit-keyframes spinner {
+    from { -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+}
+@keyframes spinner {
+    from { -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+}
+li#donate {
+    box-shadow: 0px 0px 5px #DEC60F inset;
+}

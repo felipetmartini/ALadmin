@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css);
+body { 
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+#header {
+    height: 120px;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-size: 30px;
+    background-color: #e5e5e5;
+    border-bottom: 1px solid #9f9f9f;
+}
+#header > div {
+    position: relative;
+    transform: translate(0px, -50%);
+    top: 50%;
+}
+#notification, #error {
+    width: 98.5%;
+    margin: 10px auto;
+    padding: 3px 3px;
+    border: 1px solid #9f9f9f;
+}
+#error { background-color: #ff8b8b; }
+#loginbutton {
+    margin-top: 50px;
+}
