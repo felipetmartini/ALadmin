@@ -5,7 +5,7 @@ require 'config.php';
 $con = mysqli_connect($db_ip,$db_user,$db_pass,$db_name);
 $query = mysqli_query($con,"SELECT coplevel, name FROM players WHERE playerid=\"".$_POST['steamid']."\"");
 $data = mysqli_fetch_row($query);
-echo $data[1]."<hr>Cop level: <select id='medlvl'>";
+echo $data[1]."<hr>Cop level: <select id='coplvl'>";
 for ($i=0;$i<8;$i++) {
     echo "<option " ;
     if ($data[0] == $i) {
