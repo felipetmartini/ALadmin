@@ -44,7 +44,7 @@
             $plys = mysqli_query($con,"SELECT * FROM players");
         }
         if (isset($search) and $plys == false) {
-            echo "<tr><td colspan='4'>Keine Daten.</td></tr>";
+            echo "<tr><td colspan='4'>No data.</td></tr>";
         } else {
             while ($row = mysqli_fetch_row($plys)) {
                 echo '<tr><td style="width: 20%;">'.$row[1].'</td><td style="width: 20%;">'.$row[2].'</td><td style="width: 20%;"><a href="javascript:checkMoney(\''.$row[2].'\')">Money</a> <a href="javascript:checkLicenses(\''.$row[2].'\')">Licenses</a> <a href="javascript:checkGarage(\''.$row[2].'\',\''.$row[1].'\')">Garage</a> <a href="javascript:checkMedLvl(\''.$row[2].'\')">Medic</a> <a href="javascript:checkCopLvl(\''.$row[2].'\')">Cop</a> <a href="javascript:displayBanWindow(\''.$row[2].'\')">Ban</a> <a href="javascript:deletePlayer(\''.$row[2].'\')">Delete</a></td></tr>';
