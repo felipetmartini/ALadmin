@@ -24,6 +24,7 @@ Edit the configuration (`config.php`) and you're done.
 #What it needs
 - It has no fallbacks or error messages. You will just get a blank response or PHP errors.
 - A complete list of the default Altis Life vehicles in config.
+- Gang editing
 
 ####Screenshot
 ![Screenshot](https://blackcetha.github.io/ALadmin/screenshot.png)
