@@ -2,7 +2,7 @@
 $server_ip = "";   # Your server's IP
 $server_port = 2302;        # Port of your server
 $rcon_password = "";      # RCON/Admin password
-$admins = array("76561198070627147",""); # SteamID64s of your admins
+$admins = array("76561198070627147",""); # SteamID64s of your admins, have a look at http://steamidconverter.com/ AND remove the default ID!
 $db_ip = "";      # Adress to SQL db
 $db_user = "";   # DB-user
 $db_pass = "";      # DB-password
