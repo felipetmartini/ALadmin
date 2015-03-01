@@ -1,4 +1,4 @@
-```I'm working on including the librarys and fixing some secrurity issues```
+```I'm working on fixing some secrurity issues```
 
 # ALadmin
 Altis Life Administration Panel
@@ -14,14 +14,9 @@ With it's major features being:
 - Easy login and auto-assignment of your data (Powered by http://github.com/Smith197/SteamAuthentication)
 
 #Prequesites
-A configured copy of SteamAuth http://github.com/Smith197/SteamAuthentication
 
-SourceQuery https://github.com/xPaw/PHP-Source-Query-Class
-
-Put both the SourceQuery and steamauth folder into the main directory.
-Theese are not included because of copyright reasons.
-
-Edit the configuration (`config.php`) and you're done.
+SteamAuth configuration in `/steamauth/settings.php`,
+Edit the main configuration-file (`config.php`) and you're done.
 
 #What it needs
 - It has no fallbacks or error messages. You will just get a blank response or PHP errors.
