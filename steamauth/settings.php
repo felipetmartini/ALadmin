@@ -1,6 +1,6 @@
 <?php
-$steamauth['apikey'] = "1D8373E5C0CB0ABBA50FE893F5019811"; // Your Steam WebAPI-Key found at http://steamcommunity.com/dev/apikey
-$steamauth['domainname'] = "http://admpan.el"; // The main URL of your website displayed in the login page
+$steamauth['apikey'] = ""; // Your Steam WebAPI-Key found at http://steamcommunity.com/dev/apikey
+$steamauth['domainname'] = ""; // The main URL of your website displayed in the login page
 $steamauth['buttonstyle'] = "large_no"; // Style of the login button [small|large_no|large]
 $steamauth['logoutpage'] = ""; // Page to redirect to after a successfull logout (from the directory the SteamAuth-folder is located in) - NO slash at the beginning!
 $steamauth['loginpage'] = ""; // Page to redirect to after a successfull login (from the directory the SteamAuth-folder is located in) - NO slash at the beginning!
