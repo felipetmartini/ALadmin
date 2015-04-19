@@ -1,5 +1,3 @@
-```I'm working on fixing some secrurity issues```
-
 # ALadmin
 Altis Life Administration Panel
 
