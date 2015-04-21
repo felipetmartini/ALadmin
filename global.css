@@ -139,7 +139,7 @@ tr:first-child {
     font-weight: 600;
 }
 td {
-    padding: 0p 5px !important;
+    padding: 0px 5px !important;
     box-sizing: border-box;
 }
 table.licenses {
